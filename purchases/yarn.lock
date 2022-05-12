@@ -237,7 +237,7 @@
   "resolved" "https://registry.npmjs.org/@josephg/resolvable/-/resolvable-1.0.1.tgz"
   "version" "1.0.1"
 
-"@nestjs/apollo@^10.0.8":
+"@nestjs/apollo@^10.0.11":
   "integrity" "sha512-a4WJJ0eoQPKE1ioVqYJyLJzEzXqL+JWW2XsWqtqUSFtZ2Xu1NYogMzk91yczcrYrV69DY/FpvscO6NJkfjiobQ=="
   "resolved" "https://registry.npmjs.org/@nestjs/apollo/-/apollo-10.0.11.tgz"
   "version" "10.0.11"
@@ -307,7 +307,7 @@
     "tslib" "2.3.1"
     "uuid" "8.3.2"
 
-"@nestjs/graphql@^10.0.0", "@nestjs/graphql@^10.0.8":
+"@nestjs/graphql@^10.0.0", "@nestjs/graphql@^10.0.11":
   "integrity" "sha512-WzQKV7QJ+2HbQnWwLUliNG3mDTe/2YjlFavLFds9Z9gxH9rqYu7Tt4rlUzuopEqeLI54TR+7fDcWK3X/M6a7ug=="
   "resolved" "https://registry.npmjs.org/@nestjs/graphql/-/graphql-10.0.11.tgz"
   "version" "10.0.11"
@@ -398,7 +398,7 @@
   "resolved" "https://registry.npmjs.org/@panva/asn1.js/-/asn1.js-1.0.0.tgz"
   "version" "1.0.0"
 
-"@prisma/client@^3.11.1":
+"@prisma/client@^3.14.0":
   "integrity" "sha512-atb41UpgTR1MCst0VIbiHTMw8lmXnwUvE1KyUCAkq08+wJyjRE78Due+nSf+7uwqQn+fBFYVmoojtinhlLOSaA=="
   "resolved" "https://registry.npmjs.org/@prisma/client/-/client-3.14.0.tgz"
   "version" "3.14.0"
@@ -990,7 +990,7 @@
   "resolved" "https://registry.npmjs.org/apollo-server-errors/-/apollo-server-errors-3.3.1.tgz"
   "version" "3.3.1"
 
-"apollo-server-express@^3.5.0", "apollo-server-express@^3.6.7":
+"apollo-server-express@^3.5.0", "apollo-server-express@^3.7.0":
   "integrity" "sha512-176LSK7YBxwfleurtbfr5SYMheNNJSHrQa2h4QuosLqhfFJkfTpI2iBW56N737U47QfyueCOvkjNZVq86e3n2g=="
   "resolved" "https://registry.npmjs.org/apollo-server-express/-/apollo-server-express-3.7.0.tgz"
   "version" "3.7.0"
