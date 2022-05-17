@@ -25,21 +25,22 @@ export class PurchasesResolver {
   }
 
   @ResolveField()
-  product(
-    @Parent() purchase: Purchase,
-  ) {
+  product(@Parent() purchase: Purchase,) {
     return this.productsService.getProductById(purchase.productId)
   }
+
   @Mutation(() => Purchase)
   @UseGuards(AuthorizationGuard)
   async createPurchase(
     @Args('data') data: CreatePurchaseInput,
     @CurrentUser() user: AuthUser,
-  ) {
-    const customer = await this.customersService.getCustomerByAuthUserId(user.sub);
+    ) {
+    let customer = await this.customersService.getCustomerByAuthUserId(user.sub);
   
     if(!customer){
-      throw new Error('customer not found.')
+      customer = await this.customersService.createCustomer({
+        authUserId: user.sub,
+      });
     }
 
     return this.purchasesService.createPurchase({
