@@ -29,7 +29,7 @@ scalar DateTime
 
 type Customer {
   id: ID!
-  purchase: [Purchase!]!
+  purchases: [Purchase!]!
 }
 
 type Query {
