@@ -60,7 +60,7 @@
     "ora" "5.4.1"
     "rxjs" "6.6.7"
 
-"@apollo/federation@^0.36.0":
+"@apollo/federation@^0.36.1":
   "integrity" "sha512-SAvW7ZRUEtmAdK+UWRXZxo/wRNVbDDyYbeYJooKAtvc8B4Mly+2PusqBQ+4RuHhg5dSqrv5d6RXJeY9MBiraVA=="
   "resolved" "https://registry.npmjs.org/@apollo/federation/-/federation-0.36.1.tgz"
   "version" "0.36.1"
@@ -332,14 +332,14 @@
   "resolved" "https://registry.npmjs.org/@nestjs/mapped-types/-/mapped-types-1.0.1.tgz"
   "version" "1.0.1"
 
-"@nestjs/microservices@^8.0.0", "@nestjs/microservices@^8.4.3":
-  "integrity" "sha512-V1xBs5mBFaWGF7RuLSQBG9ydcvX+j8RxHnk9pYF2I5kBdWt7AyTuG2qMt7es06HXEbgUmavw/zn+P6Q2WQIS5A=="
-  "resolved" "https://registry.npmjs.org/@nestjs/microservices/-/microservices-8.4.4.tgz"
-  "version" "8.4.4"
+"@nestjs/microservices@^8.0.0", "@nestjs/microservices@^8.4.5":
+  "integrity" "sha512-WiHCRT50V7J++sfTNzk4fKfxaaqbJ06W9LsXjdLEkWX0mx3KPAjbMV1G8FR/6kahOA9D3BttwMlNpm1VHikmrw=="
+  "resolved" "https://registry.npmjs.org/@nestjs/microservices/-/microservices-8.4.5.tgz"
+  "version" "8.4.5"
   dependencies:
     "iterare" "1.2.1"
     "json-socket" "0.3.0"
-    "tslib" "2.3.1"
+    "tslib" "2.4.0"
 
 "@nestjs/platform-express@^8.0.0":
   "integrity" "sha512-n/H83uzw154v6NVVSg6mniZIvYWtYp0dtNpU9O1qdEmDO030p0tBkeIRoDtpeOVvL2fW5PsHiUYS7HY4tNfykQ=="
