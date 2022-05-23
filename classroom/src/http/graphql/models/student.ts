@@ -2,7 +2,7 @@ import { Directive, Field, ID, ObjectType } from "@nestjs/graphql";
 import { Enrollment } from "./enrollment";
 
 @ObjectType('user')
-@Directive('@extendes')
+@Directive('@extends')
 @Directive('@key(fields: "authUserId")')
 export class Student{
   id: string;
